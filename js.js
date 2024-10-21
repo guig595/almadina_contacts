@@ -254,7 +254,8 @@ const newExecutiveContacts = [
       { name: "Kosar Kundi", phone: "+92314-1468977", category: "Drivers Contacts", subcategory: "None" },
       { name: "Saddique Khan", phone: "+92310-5099551", category: "Drivers Contacts", subcategory: "None" },
       { name: "Sheraz Aziz", phone: "+92308-1476523", category: "Drivers Contacts", subcategory: "None" },
-      { name: "Najeeb", phone: "+92312-7416265", category: "Drivers Contacts", subcategory: "None" }
+      { name: "Najeeb", phone: "+92312-7416265", category: "Drivers Contacts", subcategory: "None" },
+      { name: "Mudasar", phone: "+92300-5709544", category: "Drivers Contacts", subcategory: "None" }
       
   ];
 // Function to add predefined contacts ensuring no duplicates
