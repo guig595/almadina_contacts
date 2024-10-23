@@ -60,26 +60,48 @@
                 <button class="btn btn-warning me-2" onclick="viewContacts('Shop Keepers Contacts')">Shop Keepers Contacts</button>
                 <button class="btn btn-info me-2" onclick="viewContacts('Suppliers Contacts')">Farmers & Brokers Contacts</button>
                 <button class="btn btn-success" onclick="viewContacts('Drivers Contacts')">Drivers Contacts</button>
-                <!-- New button for Almadina Bank Accounts -->
+                <!-- New buttons for Almadina Bank Accounts, IFFCO Bank Accounts, and other images -->
                 <button class="btn btn-outline-primary" onclick="viewAlmadinaBankAccounts()">Almadina Bank Accounts</button>
+                <button class="btn btn-outline-primary" onclick="viewIFFCOBankAccounts()">IFFCO feeds Bank Accounts</button>
+                <button class="btn btn-outline-primary" onclick="viewSharifFeed()">Sharif Feed bank accounts</button>
+                <button class="btn btn-outline-primary" onclick="viewJadeed()">Jadeed feeds bank Accounts</button>
+                <button class="btn btn-outline-primary" onclick="viewCrystal()">Crystal Feeds Account</button>
+                <button class="btn btn-outline-primary" onclick="viewFive()">Five Stars Bank Account</button>
             </div>
-                <!-- New button for IFFCO Bank Accounts -->
-                <button class="btn btn-outline-primary" onclick="viewIFFCOBankAccounts()">IFFCO Bank Accounts</button>
-            </div>
-            <div id="shopkeeper-options" class="mt-3">
+            <div id ="shopkeeper-options" class="mt-3">
                 <button class="btn btn-outline-warning me-2" onclick="viewContacts('Dera Shop Keepers Contact')">Dera Shop Keepers Contact</button>
                 <button class="btn btn-outline-danger me-2" onclick="viewContacts('Chakok Contacts')">Chakok Contacts</button>
                 <button class="btn btn-outline-success" onclick="viewContacts('Local Contacts')">Local Contacts</button>
             </div>
 
-           
             <!-- Placeholder div for Almadina Bank Accounts -->
             <div id="almadina-bank-accounts" class="mt-4" style="display:none;">
                 <img src="png3.png" alt="Almadina Bank Accounts" class="img-fluid">
             </div>
-            <!-- Placeholder div for Almadina Bank Accounts -->
-            <div id="almadina-bank-accounts" class="mt-4" style="display:none;">
+
+            <!-- Placeholder div for IFFCO Bank Accounts -->
+            <div id="iffco-bank-accounts" class="mt-4" style="display:none;">
                 <img src="IFFCO.png" alt="IFFCO Bank Accounts" class="img-fluid">
+            </div>
+
+            <!-- Placeholder div for Sharif Feed -->
+            <div id="sharif-feed" class="mt-4" style="display:none;">
+                <img src="sharif-feed.png" alt="Sharif Feed" class="img-fluid">
+            </div>
+
+            <!-- Placeholder div for Jadeed -->
+            <div id="jadeed" class="mt-4" style="display:none;">
+                <img src="jadeed.png" alt="Jadeed" class="img-fluid">
+            </div>
+
+            <!-- Placeholder div for Crystal -->
+            <div id="crystal" class="mt-4" style="display:none;">
+                <img src="crystal.png" alt="Crystal" class="img-fluid">
+            </div>
+
+            <!-- Placeholder div for Five -->
+            <div id="five" class="mt-4" style="display:none;">
+                <img src="five.png" alt="Five" class="img-fluid">
             </div>
 
             <!-- Dynamic Search Bar for Categories -->
@@ -105,9 +127,35 @@
             const bankAccountsSection = document.getElementById('almadina-bank-accounts');
             bankAccountsSection.style.display = 'block';  // Show the section with the image
         }
+
+        // Function to show IFFCO Bank Accounts image
         function viewIFFCOBankAccounts() {
-            const bankAccountsSection = document.getElementById('almadina-bank-accounts');
+            const bankAccountsSection = document.getElementById('iffco-bank-accounts');
             bankAccountsSection.style.display = 'block';  // Show the section with the image
+        }
+
+        // Function to show Sharif Feed image
+        function viewSharifFeed() {
+            const sharifFeedSection = document.getElementById('sharif-feed');
+            sharifFeedSection.style.display = 'block';  // Show the section with the image
+        }
+
+        // Function to show Jadeed image
+        function viewJadeed() {
+            const jadeedSection = document.getElementById('jadeed');
+            jadeedSection.style.display = 'block';  // Show the section with the image
+        }
+
+        // Function to show Crystal image
+        function viewCrystal() {
+            const crystalSection = document.getElementById('crystal');
+            crystalSection.style.display = 'block';  // Show the section with the image
+        }
+
+        // Function to show Five image
+        function viewFive() {
+            const fiveSection = document.getElementById('five');
+            fiveSection.style.display = 'block';  // Show the section with the image
         }
     </script>
 </body>
