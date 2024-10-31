@@ -224,7 +224,9 @@ const newExecutiveContacts = [
     { name: "Muhammad Irfan", phone: "+92310-7878370", category: "Employee Contacts", subcategory: "None" },
     { name: "Muhammad Haris", phone: "+92309-0295583", category: "Employee Contacts", subcategory: "None" },
     { name: "Ahtesham", phone: "+92320-0956752", category: "Employee Contacts", subcategory: "None" },
-    { name: "Azmat Manager", phone: "+92333-7883090", category: "Employee Contacts", subcategory: "None" }
+    { name: "Azmat Manager", phone: "+92333-7883090", category: "Employee Contacts", subcategory: "None" },
+    { name: "Tandoorchi", phone: "+92310-64403090", category: "Employee Contacts", subcategory: "None" },
+    { name: "Lakrio wala Safi ullah", phone: "+92306-5822887", category: "Employee Contacts", subcategory: "None" }
   ];
   
   // Predefined contacts to be added under "Drivers Contacts"
