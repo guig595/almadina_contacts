@@ -229,8 +229,8 @@ const newExecutiveContacts = [
   
   // Predefined contacts to be added under "Drivers Contacts"
   const newDriversContacts = [
-      { name: "Ustad Aziz", phone: "+92341-5766171", category: "Drivers Contacts", subcategory: "None" },
-      { name: "Ustad Aziz1", phone: "+92312-7416265", category: "Drivers Contacts", subcategory: "None" },
+      { name: "Ustad Aziz", phone: "+92306-3952389", category: "Drivers Contacts", subcategory: "None" },
+      //{ name: "Ustad Aziz1", phone: "+92312-7416265", category: "Drivers Contacts", subcategory: "None" },
       //{ name: "Akmal", phone: "+92308-9664661", category: "Drivers Contacts", subcategory: "None" },
       { name: "Ustad Imran", phone: "+92311-7355919", category: "Drivers Contacts", subcategory: "None" },
       //{ name: "Ustad Riaz", phone: "+92306-2775685", category: "Drivers Contacts", subcategory: "None" },
